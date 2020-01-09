@@ -32,8 +32,7 @@
 
 
 body {
-    /* Cannot add background images using this software */
-    background-color: Black;
+    background-image: url("Goon vibes.jpg");
     color: white;
 }
 
@@ -75,8 +74,13 @@ body {
 }
 
 #descrip {
-    margin-left: 500px;
+    margin-left: 700px;
 }
+
+#basedImage {
+    margin-left: 100px;
+}
+
 #traits {
 
     text-align: right;
