@@ -1,3 +1,6 @@
+#divmain {
+    background-image: url("newthing.jpg");
+}
 #TopList {
     list-style-type: none;
     margin: 0;
@@ -5,7 +8,7 @@
     /* formats the list at the topleft */
     overflow: hidden;
     /* prevents the main title from merging with the titlescreen */
-    background-color: Tomato;
+    background-color: lightgray;
     /* setting an idle background color, will come back to it later */
 }
 
@@ -31,33 +34,29 @@
 }
 
 
-body {
-    background-color: Black;
-    color: white;
-}
 
 #name {
     border-style: solid;
     text-align: center;
-    background-color: Tomato;
+    background-color: lightgray;
 }
 
 #whoamIheader {
     border-style: solid;
     text-align: center;
-    background-color: Tomato;
+    background-color: lightgray;
 }
 
 #portfolioHeader {
     border-style: solid;
     text-align: center;
-    background-color: Tomato;
+    background-color: lightgray;
 }
 
 #contactInfo {
     border-style: solid;
     text-align: center;
-    background-color: Tomato;
+    background-color: lightgray;
     margin-left:-40px;
     /* Weird glitch in the contact header, so I shifted it for consistency */
 }
@@ -73,22 +72,30 @@ body {
 
 }
 
+#filler {
+    height: 293px;
+    width: 293px;
+}
+
 #descrip {
-    margin-left: 700px;
+    position: relative;
+    bottom: 100px;
+    margin-left: 400px;
     margin-top: -80px;
+    font-size: 30px;
 }
 
 #basedImage {
     margin-left: 100px;
 }
 
-#traits {
 
-    text-align: right;
-}
 #traitList {
     list-style-type: none;
-    text-align: right;
+}
+#div2 {
+    background-image: url("newthing.jpg");
+    opaque: 0.5;
 }
 
 #alphabroderlogo {
@@ -96,6 +103,8 @@ body {
 }
 
 #alphabroder {
+    position: relative;
+    bottom: 200px;
     text-align: right;
     margin-left: 500px;
 }
@@ -104,6 +113,8 @@ body {
 }
 
 #education {
+    position: relative;
+    bottom: 200px;
     text-align: right;
     margin-left: 500px;
 }
@@ -115,6 +126,6 @@ body {
     text-align: right;
 }
 
-#viewCode {
+#viewcode {
     text-align: right;
 }
