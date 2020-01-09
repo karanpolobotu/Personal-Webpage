@@ -1,0 +1,108 @@
+#TopList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* formats the list at the topleft */
+    overflow: hidden;
+    /* prevents the main title from merging with the titlescreen */
+    background-color: Tomato;
+    /* setting an idle background color, will come back to it later */
+}
+
+#topButton {
+    float: left;
+    /* allows the list to move horizontally */
+}
+
+    /* individual buttons specified */
+#hyperLink {
+    display: block;
+    /* displays the buttons as blocks */
+    color: white;
+    padding: 16px;
+    /* seperates the buttons */
+    text-decoration: none;
+    /* allows me to get rid of hyperlinked underline */
+}
+
+    /* When hovering, color changes */
+#hyperLink:hover {
+    background-color: lightgray;
+}
+
+
+body {
+    /* Cannot add background images using this software */
+    background-color: Black;
+    color: white;
+}
+
+#name {
+    border-style: solid;
+    text-align: center;
+    background-color: Tomato;
+}
+
+#whoamIheader {
+    border-style: solid;
+    text-align: center;
+    background-color: Tomato;
+}
+
+#portfolioHeader {
+    border-style: solid;
+    text-align: center;
+    background-color: Tomato;
+}
+
+#contactInfo {
+    border-style: solid;
+    text-align: center;
+    background-color: Tomato;
+    margin-left:-40px;
+    /* Weird glitch in the contact header, so I shifted it for consistency */
+}
+
+/* Try these later on :
+    margin-right:100px;
+    margin-left:100px;
+    allows you to adjust where text is placed by margin
+*/
+
+#skills {
+    text-align: Left;
+
+}
+
+#descrip {
+    margin-left: 500px;
+}
+#traits {
+
+    text-align: right;
+}
+#traitList {
+    list-style-type: none;
+    text-align: right;
+}
+
+#alphabroder {
+    text-align: right;
+    margin-left: 500px;
+}
+
+#education {
+    text-align: right;
+    margin-left: 500px;
+}
+
+#msgme {
+    text-align: right;
+}
+#connect {
+    text-align: right;
+}
+
+#viewCode {
+    text-align: right;
+}
